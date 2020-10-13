@@ -1,0 +1,38 @@
+.chatbox {
+  width: 600px;
+  height: 300px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.cb-upper-bar, .cb-lower-bar {
+  background-color: #574b90;
+  color: white;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.cb-content {
+  background-color: #786fa6;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.cb-lower-bar {
+  display: flex;
+}
+
+.cb-lower-bar input {
+  width: 100%;
+}
+
+.cb-lower-bar button {
+  width: 100px;
+}
